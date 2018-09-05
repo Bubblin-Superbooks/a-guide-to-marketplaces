@@ -143,7 +143,7 @@ a {
 .tape div.chapter {
   width: 20vw;
   height: 5vh;
-  background: #ef8683;
+  background:  #992d23;
   color: white;
 }
 
@@ -178,61 +178,6 @@ pre, code {
   border: 1px solid hsla(358, 73%, 47%, 1);
   padding: 0 2.5vw;
   border-radius: 1vw;
-}
-
-
-.terminal {
-  background-color: black;
-  color: #55ff55;
-  margin: 3vw 0;
-  width: 75vw;
-  border: 1px solid #ccc;
-  padding: 2vw 5vw;
-  border-radius: 1vw;
-  font-family: monospace;
-  font-size: 75%;
-  white-space: nowrap;
-  overflow-x: auto;
-  text-align: left;
-}
-
-.prompt {
-  background: #55ff55;
-  height: 1em;
-  width: 0.75em;
-  -webkit-animation: blink 1s linear infinite;
-  animation: blink 1s linear infinite;
-}
-
-
-@-webkit-keyframes blink {
-  0% {
-    background: #55ff55;
-  }
-  49% {
-    background: #55ff55;
-  }
-  50% {
-    background: transparent;
-  }
-  100% {
-    background: transparent;
-  }
-}
-
-@keyframes blink {
-  0% {
-    background: #55ff55;
-  }
-  49% {
-    background: #55ff55;
-  }
-  50% {
-    background: transparent;
-  }
-  100% {
-    background: transparent;
-  }
 }
 
 .notice {
