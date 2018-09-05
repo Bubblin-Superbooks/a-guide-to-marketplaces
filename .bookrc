@@ -7,5 +7,6 @@
     "CSS": "scss",
     "JS": "js",
     "HEAD": "haml"
-  }
+  },
+  "book_id": 651
 }
