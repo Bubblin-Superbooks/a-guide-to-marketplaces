@@ -4,7 +4,7 @@
   "has_page_numbers": false,
   "mode": {
     "HTML": "haml",
-    "CSS": "css",
+    "CSS": "scss",
     "JS": "js",
     "HEAD": "haml"
   }
