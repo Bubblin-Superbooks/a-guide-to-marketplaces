@@ -3,9 +3,9 @@
   "type": "text",
   "has_page_numbers": false,
   "mode": {
-    "HTML": "html",
+    "HTML": "haml",
     "CSS": "css",
     "JS": "js",
-    "HEAD": "html"
+    "HEAD": "haml"
   }
 }
