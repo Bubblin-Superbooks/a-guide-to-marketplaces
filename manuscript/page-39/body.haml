@@ -1,12 +1,14 @@
 %header.tape.flex
-  .chapter.flex Chapter 1
-  .chaptername Introduction
+  .chaptername.right Seeding, Growing and Scaling a Marketplace
+  .chapter.flex Chapter 2
 
 %main.leaf.flex
   .inner.justify
-    %h1 New York
-    .subhead York, MA - Friday March 18, 2016 - Seven Leafs
-    .subhead
-      by
-      %span.uppercase Marvin Von Danig Goethe
-    %p When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream;
+    %ol{ start: "3"}
+      %li
+        %p For example, some restaurant delivery startups started out by scraping the web for menus from local area restaurants. Then when a customer places an order on their site, the startup goes to the restaurant to get the order fulfilled.
+        %p There are two challenges with this approach. The first is that the provider’s information (e.g. restaurant menu) needs to be available and up-to-date. Then, there’s always a risk that the selected provider won’t convert and you’ll end up leaving your customer high and dry. Even if a different provider fulfills the order, you may not be delivering a perfect experience to the customer.
+
+      %li 
+        %h6 Pay for inventory
+        %p During the early days at Boris’ startup JustBooks, their first growth hack was buying books to list so they didn’t have an empty site. When Uber launched in Seattle, they paid town car drivers to idle. This generated the supply, and once the customers and money started rolling in, they switched those drivers over to commission.
