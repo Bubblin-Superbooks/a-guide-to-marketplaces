@@ -129,6 +129,10 @@ a {
   font-style: italic;
 }
 
+.small {
+  font-size: 70%;
+}
+
 .tape {
     height: 5vh;
     width: 100%;
@@ -217,6 +221,10 @@ blockquote:after {
     line-height: 0.4vw;
     margin-left: 0.5vw;
     vertical-align: -0.9vw;
+}
+
+.push {
+  margin-top: 13vh; 
 }
 
 .clearfix:after {
